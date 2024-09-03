@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Wine routes</title>
+</head>
+<body>
+    <table>
+        <caption>
+            <h3>
+                General Routes
+            </h3>
+        </caption>
+        <thread>
+            <th>Path</th>
+            <th>HTTP methods</th>
+            <th>Description</th>
+        </thread>
+        <tbody>
+            <tr>
+                <td>/</td>
+                <td>GET</td>
+                <td>Display homepage</td>
+            </tr>
+            <tr>
+                <td>/:id</td>
+                <td>GET</td>
+                <td>retrieve a specific one</td>
+            </tr>
+            <tr>
+                <td>/signup</td>
+                <td>POST</td>
+                <td>adding something new </td>
+            </tr>
+            <tr>
+                <td>users/:id</td>
+                <td>DELETE</td>
+                <td>Delete  user</td>
+            </tr>
+            <tr>
+                <td>users/:id</td>
+                <td>PATCH</td>
+                <td>updates users</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <caption>
+            <h3>
+                Users Routes
+            </h3>
+        </caption>
+        <thread>
+            <th>Path</th>
+            <th>HTTP methods</th>
+            <th>Description</th>
+        </thread>
+        <tbody>
+            <tr>
+                <td>/users</td>
+                <td>GET</td>
+                <td>retrieve all users</td>
+            </tr>
+            <tr>
+                <td>users/:id</td>
+                <td>GET</td>
+                <td>get 1 users</td>
+            </tr>
+            <tr>
+                <td>users/signup</td>
+                <td>POST</td>
+                <td>Adding new user</td>
+            </tr>
+            <tr>
+                <td>users/user/:id</td>
+                <td>PATCH</td>
+                <td>updates user</td>
+            </tr>
+            <tr>
+                <td>users/user/:id</td>
+                <td>DELETE</td>
+                <td>deletes user</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <caption>
+            <h3>
+                Products Routes
+            </h3>
+        </caption>
+        <thread>
+            <th>Path</th>
+            <th>HTTP methods</th>
+            <th>Description</th>
+        </thread>
+        <tbody>
+            <tr>
+                <td>/products</td>
+                <td>GET</td>
+                <td>retrieve all stocks</td>
+            </tr>
+            <tr>
+                <td>products/:id</td>
+                <td>GET</td>
+                <td>retrieve 1 stocks</td>
+            </tr>
+            <tr>
+                <td>/add</td>
+                <td>POST</td>
+                <td>adding new stocks</td>
+            </tr>
+            <tr>
+                <td>/product/:id</td>
+                <td>PATCH</td>
+                <td>updating stocks</td>
+            </tr>
+            <tr>
+                <td>/product/:id</td>
+                <td>DELETE</td>
+                <td>deletes stocks</td>
+            </tr>
+        </tbody>
+    </table>
+    <caption>
+        <h3>
+            Suppliers Routes
+        </h3>
+    </caption>
+    <thread>
+        <th>Path</th>
+        <th>HTTP methods</th>
+        <th>Description</th>
+    </thread>
+    <tbody>
+        <tr>
+            <td>/suppliers</td>
+            <td>GET</td>
+            <td>retrieve all supplier</td>
+        </tr>
+        <tr>
+            <td>suppliers/:id</td>
+            <td>GET</td>
+            <td>retrieve 1 supplier</td>
+        </tr>
+        <tr>
+            <td>/addNew</td>
+            <td>POST</td>
+            <td>adding new supplier</td>
+        </tr>
+        <tr>
+            <td>/supplier/:id</td>
+            <td>PATCH</td>
+            <td>updating supplier</td>
+        </tr>
+        <tr>
+            <td>/supplier/:id</td>
+            <td>DELETE</td>
+            <td>deletes supplier</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body {
+    text-align: center;
+}
+table, th, td {
+    margin: auto;
+    border: 0.5px solid;
+  }
