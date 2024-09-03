@@ -10,7 +10,7 @@
 
   "scripts": {
 
-    "start": "node index",
+    "start": "node index.js",
 
     "dev": "nodemon",
 
