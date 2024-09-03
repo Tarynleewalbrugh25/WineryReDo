@@ -1,7 +1,6 @@
 import {userRouter} from './controller/UserController.js';
 import {productRouter} from './controller/ProductController.js';
 import {supplierRouter} from './controller/SupplierController.js'
-import cookieParser from "cookie-parser"
 import {errorHandling} from './middleware/ErrorHandling.js';
 import path from 'path'
 import cors from 'cors'
