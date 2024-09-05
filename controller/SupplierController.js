@@ -26,16 +26,16 @@ supplierRouter.get('/:id', (req, res) => {
         });
     }
 });
-supplierRouter.post('/addNew',bodyParser.json(),(req, res)=>{
-    try{
-        suppliers.addSupplier(req, res)
-    }catch(e){
-        res.json({
-            status: res.statusCode,
-            msg: 'Failed to add new supplier'
-        })
-    }
-})
+// supplierRouter.post('/addNew',bodyParser.json(),(req, res)=>{
+//     try{
+//         suppliers.addSupplier(req, res)
+//     }catch(e){
+//         res.json({
+//             status: res.statusCode,
+//             msg: 'Failed to add new supplier'
+//         })
+//     }
+// })
 
 supplierRouter.delete('/supplier/:id', (req, res) => {
     try {
