@@ -1,7 +1,7 @@
 import express from 'express';
 import path from 'path';
 import cors from 'cors';
-import cookieParser from 'cookie-parser'; // Import cookie-parser
+import cookieParser from 'cookie-parser';
 import { config } from 'dotenv';
 import { userRouter } from './controller/UserController.js';
 import { productRouter } from './controller/ProductController.js';
